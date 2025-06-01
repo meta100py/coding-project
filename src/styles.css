@@ -15,7 +15,7 @@ body {
   grid-gap: 64px;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .grid-2-columns {
