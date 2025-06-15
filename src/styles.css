@@ -185,11 +185,8 @@ footer a {
 table {
   margin: 0 auto;
   padding: 100px;
-  /* /////// */
   border-collapse: separate;
   border-spacing: 10;
-  border-radius: 15px;
-  -moz-border-radius: 20px;
   padding: 2px;
 }
 thead p {
