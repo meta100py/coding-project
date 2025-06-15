@@ -182,7 +182,37 @@ footer a {
   color: white;
   opacity: 0.7;
 }
-
+table {
+  margin: 0 auto;
+  padding: 100px;
+  /* /////// */
+  border-collapse: separate;
+  border-spacing: 10;
+  border-radius: 15px;
+  -moz-border-radius: 20px;
+  padding: 2px;
+}
+thead p {
+  background-color: #1e087b;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: white;
+  padding: 16px 32px;
+  margin-top: 32px;
+}
+tbody {
+  font-size: 25px;
+  text-align: center;
+}
+td {
+  border-top: 1px solid lightgray;
+}
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 36px;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -202,5 +232,14 @@ footer a {
   }
   section {
     padding: 30px 0;
+  }
+  thead {
+    font-size: 18px;
+  }
+  thead p {
+    font-size: 18px;
+  }
+  tbody {
+    font-size: 15px;
   }
 }
